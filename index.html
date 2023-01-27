@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge One</title>
+</head>
+<body class="cuerpo">
+    <h1 class="titulo">Alura Latam.</h1>
+
+    <main class="contenedor-principal">
+
+        <section class="tarjeta">
+            
+            <textarea cols="70px" rows="22px" placeholder="Ingresa texto aqui..." class="input-texto"></textarea>
+
+            <div>
+                <p class="parrafo">&starf; solo letras minusculas y sin acento</p>
+
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <textarea cols="60px" rows="8" placeholder="Resultado" class="mensaje"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
